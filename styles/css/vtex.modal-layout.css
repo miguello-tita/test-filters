@@ -16,7 +16,6 @@
   }
 }
 
-
 @media screen and (min-width: 75em) {
   .paper--quickview {
     width: calc(100% - 4rem);
@@ -64,7 +63,7 @@
 }
 
 .triggerContainer--quickview {
-  padding: .75rem;
+  padding: 0.75rem;
 }
 
 .triggerContainer {
@@ -73,10 +72,11 @@
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
   border-top-color: rgb(238, 238, 238);
-  box-shadow: -4px 0px 27px -12px rgba(0,0,0,0.64);
+  box-shadow: -4px 0px 27px -12px rgba(0, 0, 0, 0.64);
 }
 
-.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {
+.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview)
+  .actionsContentWrapper {
   border-top-color: transparent;
 }
 
@@ -86,4 +86,10 @@
 
 .paper--product-gifts {
   padding: 1.5rem;
+}
+
+.paper--filterModal {
+  width: 100%;
+  max-width: 720px;
+  padding: 2rem;
 }

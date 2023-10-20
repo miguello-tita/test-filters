@@ -1,0 +1,21 @@
+.filter__container--title {
+  display: none;
+}
+
+.filter {
+  pointer-events: none;
+}
+
+.filterTitle .filterIcon {
+  display: none;
+}
+
+.filterContent {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.3125rem;
+}
+
+.filter__container :global(.vtex-checkbox__container) {
+  display: none;
+}
